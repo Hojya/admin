@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(201, 217, 235);
+}
+
+.contReestr{
+    margin-left: 5%; 
+    margin-right:  5%; 
+    margin-top: 2%;
+}
+
+.cont{
+    margin-top: 3%;
+}
+.link{
+    text-decoration: none;
+    color: rgb(139, 18, 18);
+    font-weight: bold;
+} 
+
+.link:hover{
+    color: rgb(139, 18, 18);
+}
+
+.back{
+    text-decoration: none;
+    
+}
+
+h4{
+    background-color: rgb(74, 74, 87);
+    padding: 10px;
+    color: aliceblue;
+}
+/* .history{
+    background-color: rgb(74, 74, 87);
+    color: white;
+    padding: 5px;
+} */
+
+.back{
+    color: blue;
+}
+.heder{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+    flex-wrap: wrap;
+}
+/* .button{
+    width: 10%;
+}
+
+.cont-btn{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 50%;
+
+
+
+} */
+
+.add{
+    display: none;
+}
+
+.remove{
+    display: block;
+}
+.red{
+    color: rgb(228, 13, 13);
+}
+.green{
+    color: green;
+
+}
+.blue{
+    color: blue;
+}
+
+.single { display: none; }
+.single.active { display: block; }
+
+.p , h6{
+    color: brown;
+}
+
+.tooltip{
+    color: brown;
+    text-decoration: none;
+}
+
+.cont-btn-create{
+    display: flex;
+    justify-content: end;
+}
+
+.find{
+    margin-right: 2px;
+    background-color: rgb(128, 191, 216);
+    border: gray 1px solid;
+}
+
+.create{
+    background-color: rgb(157, 219, 194);
+    border: gray 1px solid;
+}
+.yellow{
+    background-color: darkgoldenrod;
+    border: gray 1px solid;
+}
+.fio{
+    margin-left: 77%;
+    margin-right: 1px;
+    
+}
+
+.col{
+    box-shadow: black 1px 1px 10px 1px;
+}
+
+.crumb{
+    width: 200px;;
+}
+.bx-menu{
+    margin-top: 50px;
+}
+
+.hr-double {
+	margin-top: 30px;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px dashed #ddd;
+}
+
+.verify{
+    background-color: rgb(219, 169, 157);
+    border: gray 1px solid;
+}
+
+.footer{
+    background-color: #E4E9F7;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    
+    /* border:  1px solid black; */
+}
+
+span{
+    
+    text-align: center;
+    
+    transition: all 0.5s ease;
+    /* border:  1px solid black; */
+}
+.content {
+	min-height: calc(100vh - 60px);
+}

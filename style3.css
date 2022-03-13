@@ -1,0 +1,15 @@
+.footer{
+    background-color: #E4E9F7;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+span{
+    
+    text-align: center;
+}
+
+.content {
+	min-height: calc(100vh - 80px);
+}
