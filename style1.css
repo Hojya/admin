@@ -28,7 +28,7 @@ body{
 
 h4{
     background-color: rgb(74, 74, 87);
-    padding: 10px;
+    /* padding: 10px;  */
     color: aliceblue;
 }
 /* .history{
@@ -103,7 +103,7 @@ h4{
 }
 
 .create{
-    background-color: rgb(157, 219, 194);
+    background-color: rgb(128, 191, 216);
     border: gray 1px solid;
 }
 .yellow{
@@ -159,4 +159,25 @@ span{
 }
 .content {
 	min-height: calc(100vh - 60px);
+}
+.head{
+    display: flex;
+    background-color: rgb(74, 74, 87);
+    padding: 10px;
+    justify-content: flex-end;
+}
+.white{
+    font-weight: bold;
+    /* font-size: 30px; */
+    /* margin-left: 1000px ; */
+    
+    
+}
+.white:hover{
+    color: #ddd;
+    
+    
+}
+.name-head{
+    margin-right: auto;
 }
